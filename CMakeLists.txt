@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.26)
+project(CryptoLab1)
+include_directories(${CMAKE_SOURCE_DIR}/cppcodec)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(CryptoLab1 main.cpp)
